@@ -19,7 +19,7 @@ ENV FLASK_RUN_HOST=0.0.0.0
 EXPOSE 5000
 
 # Set up a non-root user for better security
-RUN adduser --disabled-password myuser
+RUN adduser --disabled-password myuser 
 USER myuser
 
 # Run the Flask app
